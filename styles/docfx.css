@@ -522,7 +522,7 @@ body .toc{
 }
 .toc .nav > li.active > a:hover,
 .toc .nav > li.active > a:focus {
-  color: #23527c;
+  color: #009191;
 }
 
 .toc .nav > li> .expand-stub {

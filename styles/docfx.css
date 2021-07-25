@@ -6,14 +6,14 @@ body {
 }
 button,
 a {
-  color: #337ab7;
+  color: #009191;
   cursor: pointer;
 }
 button:hover,
 button:focus,
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #009191;
   text-decoration: none;
 }
 a.disable,
@@ -522,7 +522,7 @@ body .toc{
 }
 .toc .nav > li.active > a:hover,
 .toc .nav > li.active > a:focus {
-  color: #23527c;
+  color: #009191;
 }
 
 .toc .nav > li> .expand-stub {
@@ -679,7 +679,7 @@ body .toc{
 }
 .affix ul > li.active > a,
 .affix ul > li.active > a:before {
-  color: #337ab7;
+  color: #009191;
 }
 .affix ul > li > a {
   padding: 5px 12px;
@@ -696,7 +696,7 @@ body .toc{
 }
 .affix > ul > li.active > a,
 .affix > ul > li.active > a:before {
-  color: #337ab7;
+  color: #009191;
   font-weight: bold;
 }
 .affix ul ul > li > a {
@@ -743,9 +743,9 @@ body .toc{
   color: #767676;
 }
 .tryspan:hover {
-  background-color: #3b8bd0;
+  background-color: #009191;
   color: white;
-  border-color: #3b8bd0;
+  border-color: #009191;
 }
 .codewrapper:hover .tryspan {
   display: block;
@@ -880,7 +880,7 @@ code {
 }
 
 a code {
-  color: #337ab7;
+  color: #009191;
   background-color: #f1f2f3;
 }
 
@@ -889,7 +889,7 @@ a code:hover {
 }
 
 .hljs-keyword {
-  color: rgb(86,156,214);
+  color: rgb(00,91,91);
 }
 
 .hljs-string {
@@ -916,7 +916,7 @@ pre > code .line-highlight {
     position:relative;
     top:1px;
     display:inline-block;
-    font-family:'Glyphicons Halflings';
+    font-family:'Segoe UI';
     line-height:1;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
@@ -989,13 +989,13 @@ div.embeddedvideo iframe {
     text-decoration: none;
     border-bottom: 2px solid #fff; }
     .tabGroup a[role="tab"]:hover, .tabGroup a[role="tab"]:focus, .tabGroup a[role="tab"][aria-selected="true"] {
-      border-bottom: 2px solid #0050C5; }
+      border-bottom: 2px solid #009191; }
     .tabGroup a[role="tab"][aria-selected="true"] {
       color: #222; }
     .tabGroup a[role="tab"]:hover, .tabGroup a[role="tab"]:focus {
-      color: #0050C5; }
+      color: #009191; }
     .tabGroup a[role="tab"]:focus {
-      outline: 1px solid #0050C5;
+      outline: 1px solid #009191;
       outline-offset: -1px; }
   @media (min-width: 768px) {
     .tabGroup a[role="tab"] {

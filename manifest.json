@@ -13,6 +13,30 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProbabilityUtil.ProbabilityUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProbabilityUtil.ProbabilityUtil.html",
+          "hash": "PHOdc3BsFDYgysMDkDHxWxGnyD0vNFbEjdFu0EquBmY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProbabilityUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProbabilityUtil.html",
+          "hash": "r3wHZwbnddwmWpGab4EUcMGBWQHQjJYzctwoMPpWr0Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -30,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "53cDPdjyKTmYSaPMwcMYYJO/bYpeY21eGi/JWyVQBqE="
+          "hash": "gLofZFUrzJNLu2+2GWerdrmP1SfW/S1S0TSlYY37TE4="
         }
       },
       "is_incremental": false,
@@ -111,6 +135,12 @@
           "incrementalPhase": "build",
           "total_file_count": 4,
           "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

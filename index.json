@@ -4,6 +4,16 @@
     "title": "PLACEHOLDER",
     "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
   },
+  "api/ProbabilityUtil.html": {
+    "href": "api/ProbabilityUtil.html",
+    "title": "Namespace ProbabilityUtil",
+    "keywords": "Namespace ProbabilityUtil Classes ProbabilityUtil"
+  },
+  "api/ProbabilityUtil.ProbabilityUtil.html": {
+    "href": "api/ProbabilityUtil.ProbabilityUtil.html",
+    "title": "Class ProbabilityUtil",
+    "keywords": "Class ProbabilityUtil Inheritance System.Object ProbabilityUtil Namespace : ProbabilityUtil Assembly : ProbabilityUtil.dll Syntax public class ProbabilityUtil : MonoBehaviour Methods GetLoot() Declaration public GameObject GetLoot() Returns Type Description GameObject GetLootListByIndex(Int32) Declaration public List<GameObject> GetLootListByIndex(int element) Parameters Type Name Description System.Int32 element Returns Type Description System.Collections.Generic.List < GameObject > SetLootListByIndex(List<GameObject>, Int32) Declaration public void SetLootListByIndex(List<GameObject> gameObjects, int element) Parameters Type Name Description System.Collections.Generic.List < GameObject > gameObjects System.Int32 element SetWeightByIndex(Int32, Int32) Declaration public void SetWeightByIndex(int weight, int element) Parameters Type Name Description System.Int32 weight System.Int32 element"
+  },
   "articles/intro.html": {
     "href": "articles/intro.html",
     "title": "Welcome to Webflow!",

@@ -1,70 +1,169 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: ProbabilityTool
-  name: ProbabilityTool
-  href: api/ProbabilityTool.html
-  commentId: N:ProbabilityTool
-  fullName: ProbabilityTool
-  nameWithType: ProbabilityTool
-- uid: ProbabilityTool.ProbabilityUtil
+- uid: Probability
+  name: Probability
+  href: api/Probability.html
+  commentId: N:Probability
+  fullName: Probability
+  nameWithType: Probability
+- uid: Probability.GameObjectLootList
+  name: GameObjectLootList
+  href: api/Probability.GameObjectLootList.html
+  commentId: T:Probability.GameObjectLootList
+  fullName: Probability.GameObjectLootList
+  nameWithType: GameObjectLootList
+- uid: Probability.GameObjectLootList.GetGameObjectList
+  name: GetGameObjectList()
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_GetGameObjectList
+  commentId: M:Probability.GameObjectLootList.GetGameObjectList
+  fullName: Probability.GameObjectLootList.GetGameObjectList()
+  nameWithType: GameObjectLootList.GetGameObjectList()
+- uid: Probability.GameObjectLootList.GetGameObjectList*
+  name: GetGameObjectList
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_GetGameObjectList_
+  commentId: Overload:Probability.GameObjectLootList.GetGameObjectList
+  isSpec: "True"
+  fullName: Probability.GameObjectLootList.GetGameObjectList
+  nameWithType: GameObjectLootList.GetGameObjectList
+- uid: Probability.GameObjectLootList.GetWeight
+  name: GetWeight()
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_GetWeight
+  commentId: M:Probability.GameObjectLootList.GetWeight
+  fullName: Probability.GameObjectLootList.GetWeight()
+  nameWithType: GameObjectLootList.GetWeight()
+- uid: Probability.GameObjectLootList.GetWeight*
+  name: GetWeight
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_GetWeight_
+  commentId: Overload:Probability.GameObjectLootList.GetWeight
+  isSpec: "True"
+  fullName: Probability.GameObjectLootList.GetWeight
+  nameWithType: GameObjectLootList.GetWeight
+- uid: Probability.GameObjectLootList.SetGameObjectList(System.Collections.Generic.List{UnityEngine.GameObject})
+  name: SetGameObjectList(List<GameObject>)
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_SetGameObjectList_System_Collections_Generic_List_UnityEngine_GameObject__
+  commentId: M:Probability.GameObjectLootList.SetGameObjectList(System.Collections.Generic.List{UnityEngine.GameObject})
+  name.vb: SetGameObjectList(List(Of GameObject))
+  fullName: Probability.GameObjectLootList.SetGameObjectList(System.Collections.Generic.List<UnityEngine.GameObject>)
+  fullName.vb: Probability.GameObjectLootList.SetGameObjectList(System.Collections.Generic.List(Of UnityEngine.GameObject))
+  nameWithType: GameObjectLootList.SetGameObjectList(List<GameObject>)
+  nameWithType.vb: GameObjectLootList.SetGameObjectList(List(Of GameObject))
+- uid: Probability.GameObjectLootList.SetGameObjectList*
+  name: SetGameObjectList
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_SetGameObjectList_
+  commentId: Overload:Probability.GameObjectLootList.SetGameObjectList
+  isSpec: "True"
+  fullName: Probability.GameObjectLootList.SetGameObjectList
+  nameWithType: GameObjectLootList.SetGameObjectList
+- uid: Probability.GameObjectLootList.SetWeight(System.Int32)
+  name: SetWeight(Int32)
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_SetWeight_System_Int32_
+  commentId: M:Probability.GameObjectLootList.SetWeight(System.Int32)
+  fullName: Probability.GameObjectLootList.SetWeight(System.Int32)
+  nameWithType: GameObjectLootList.SetWeight(Int32)
+- uid: Probability.GameObjectLootList.SetWeight*
+  name: SetWeight
+  href: api/Probability.GameObjectLootList.html#Probability_GameObjectLootList_SetWeight_
+  commentId: Overload:Probability.GameObjectLootList.SetWeight
+  isSpec: "True"
+  fullName: Probability.GameObjectLootList.SetWeight
+  nameWithType: GameObjectLootList.SetWeight
+- uid: Probability.ProbabilityUtil
   name: ProbabilityUtil
-  href: api/ProbabilityTool.ProbabilityUtil.html
-  commentId: T:ProbabilityTool.ProbabilityUtil
-  fullName: ProbabilityTool.ProbabilityUtil
+  href: api/Probability.ProbabilityUtil.html
+  commentId: T:Probability.ProbabilityUtil
+  fullName: Probability.ProbabilityUtil
   nameWithType: ProbabilityUtil
-- uid: ProbabilityTool.ProbabilityUtil.GetLoot
+- uid: Probability.ProbabilityUtil.GetLoot
   name: GetLoot()
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_GetLoot
-  commentId: M:ProbabilityTool.ProbabilityUtil.GetLoot
-  fullName: ProbabilityTool.ProbabilityUtil.GetLoot()
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_GetLoot
+  commentId: M:Probability.ProbabilityUtil.GetLoot
+  fullName: Probability.ProbabilityUtil.GetLoot()
   nameWithType: ProbabilityUtil.GetLoot()
-- uid: ProbabilityTool.ProbabilityUtil.GetLoot*
+- uid: Probability.ProbabilityUtil.GetLoot*
   name: GetLoot
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_GetLoot_
-  commentId: Overload:ProbabilityTool.ProbabilityUtil.GetLoot
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_GetLoot_
+  commentId: Overload:Probability.ProbabilityUtil.GetLoot
   isSpec: "True"
-  fullName: ProbabilityTool.ProbabilityUtil.GetLoot
+  fullName: Probability.ProbabilityUtil.GetLoot
   nameWithType: ProbabilityUtil.GetLoot
-- uid: ProbabilityTool.ProbabilityUtil.GetLootListByIndex(System.Int32)
+- uid: Probability.ProbabilityUtil.GetLootListByIndex(System.Int32)
   name: GetLootListByIndex(Int32)
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_GetLootListByIndex_System_Int32_
-  commentId: M:ProbabilityTool.ProbabilityUtil.GetLootListByIndex(System.Int32)
-  fullName: ProbabilityTool.ProbabilityUtil.GetLootListByIndex(System.Int32)
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_GetLootListByIndex_System_Int32_
+  commentId: M:Probability.ProbabilityUtil.GetLootListByIndex(System.Int32)
+  fullName: Probability.ProbabilityUtil.GetLootListByIndex(System.Int32)
   nameWithType: ProbabilityUtil.GetLootListByIndex(Int32)
-- uid: ProbabilityTool.ProbabilityUtil.GetLootListByIndex*
+- uid: Probability.ProbabilityUtil.GetLootListByIndex*
   name: GetLootListByIndex
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_GetLootListByIndex_
-  commentId: Overload:ProbabilityTool.ProbabilityUtil.GetLootListByIndex
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_GetLootListByIndex_
+  commentId: Overload:Probability.ProbabilityUtil.GetLootListByIndex
   isSpec: "True"
-  fullName: ProbabilityTool.ProbabilityUtil.GetLootListByIndex
+  fullName: Probability.ProbabilityUtil.GetLootListByIndex
   nameWithType: ProbabilityUtil.GetLootListByIndex
-- uid: ProbabilityTool.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List{UnityEngine.GameObject},System.Int32)
+- uid: Probability.ProbabilityUtil.RemoveLootList(System.Int32)
+  name: RemoveLootList(Int32)
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_RemoveLootList_System_Int32_
+  commentId: M:Probability.ProbabilityUtil.RemoveLootList(System.Int32)
+  fullName: Probability.ProbabilityUtil.RemoveLootList(System.Int32)
+  nameWithType: ProbabilityUtil.RemoveLootList(Int32)
+- uid: Probability.ProbabilityUtil.RemoveLootList*
+  name: RemoveLootList
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_RemoveLootList_
+  commentId: Overload:Probability.ProbabilityUtil.RemoveLootList
+  isSpec: "True"
+  fullName: Probability.ProbabilityUtil.RemoveLootList
+  nameWithType: ProbabilityUtil.RemoveLootList
+- uid: Probability.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List{UnityEngine.GameObject},System.Int32)
   name: SetLootListByIndex(List<GameObject>, Int32)
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_SetLootListByIndex_System_Collections_Generic_List_UnityEngine_GameObject__System_Int32_
-  commentId: M:ProbabilityTool.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List{UnityEngine.GameObject},System.Int32)
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_SetLootListByIndex_System_Collections_Generic_List_UnityEngine_GameObject__System_Int32_
+  commentId: M:Probability.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List{UnityEngine.GameObject},System.Int32)
   name.vb: SetLootListByIndex(List(Of GameObject), Int32)
-  fullName: ProbabilityTool.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List<UnityEngine.GameObject>, System.Int32)
-  fullName.vb: ProbabilityTool.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List(Of UnityEngine.GameObject), System.Int32)
+  fullName: Probability.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List<UnityEngine.GameObject>, System.Int32)
+  fullName.vb: Probability.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List(Of UnityEngine.GameObject), System.Int32)
   nameWithType: ProbabilityUtil.SetLootListByIndex(List<GameObject>, Int32)
   nameWithType.vb: ProbabilityUtil.SetLootListByIndex(List(Of GameObject), Int32)
-- uid: ProbabilityTool.ProbabilityUtil.SetLootListByIndex*
+- uid: Probability.ProbabilityUtil.SetLootListByIndex*
   name: SetLootListByIndex
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_SetLootListByIndex_
-  commentId: Overload:ProbabilityTool.ProbabilityUtil.SetLootListByIndex
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_SetLootListByIndex_
+  commentId: Overload:Probability.ProbabilityUtil.SetLootListByIndex
   isSpec: "True"
-  fullName: ProbabilityTool.ProbabilityUtil.SetLootListByIndex
+  fullName: Probability.ProbabilityUtil.SetLootListByIndex
   nameWithType: ProbabilityUtil.SetLootListByIndex
-- uid: ProbabilityTool.ProbabilityUtil.SetWeightByIndex(System.Int32,System.Int32)
+- uid: Probability.ProbabilityUtil.SetWeightByIndex(System.Int32,System.Int32)
   name: SetWeightByIndex(Int32, Int32)
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_SetWeightByIndex_System_Int32_System_Int32_
-  commentId: M:ProbabilityTool.ProbabilityUtil.SetWeightByIndex(System.Int32,System.Int32)
-  fullName: ProbabilityTool.ProbabilityUtil.SetWeightByIndex(System.Int32, System.Int32)
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_SetWeightByIndex_System_Int32_System_Int32_
+  commentId: M:Probability.ProbabilityUtil.SetWeightByIndex(System.Int32,System.Int32)
+  fullName: Probability.ProbabilityUtil.SetWeightByIndex(System.Int32, System.Int32)
   nameWithType: ProbabilityUtil.SetWeightByIndex(Int32, Int32)
-- uid: ProbabilityTool.ProbabilityUtil.SetWeightByIndex*
+- uid: Probability.ProbabilityUtil.SetWeightByIndex*
   name: SetWeightByIndex
-  href: api/ProbabilityTool.ProbabilityUtil.html#ProbabilityTool_ProbabilityUtil_SetWeightByIndex_
-  commentId: Overload:ProbabilityTool.ProbabilityUtil.SetWeightByIndex
+  href: api/Probability.ProbabilityUtil.html#Probability_ProbabilityUtil_SetWeightByIndex_
+  commentId: Overload:Probability.ProbabilityUtil.SetWeightByIndex
   isSpec: "True"
-  fullName: ProbabilityTool.ProbabilityUtil.SetWeightByIndex
+  fullName: Probability.ProbabilityUtil.SetWeightByIndex
   nameWithType: ProbabilityUtil.SetWeightByIndex
+- uid: Probability.RandomUtil
+  name: RandomUtil
+  href: api/Probability.RandomUtil.html
+  commentId: T:Probability.RandomUtil
+  fullName: Probability.RandomUtil
+  nameWithType: RandomUtil
+- uid: Probability.RandomUtil.randomNumber
+  name: randomNumber
+  href: api/Probability.RandomUtil.html#Probability_RandomUtil_randomNumber
+  commentId: F:Probability.RandomUtil.randomNumber
+  fullName: Probability.RandomUtil.randomNumber
+  nameWithType: RandomUtil.randomNumber
+- uid: Probability.RandomUtil.RandomRange(System.Int32,System.Int32)
+  name: RandomRange(Int32, Int32)
+  href: api/Probability.RandomUtil.html#Probability_RandomUtil_RandomRange_System_Int32_System_Int32_
+  commentId: M:Probability.RandomUtil.RandomRange(System.Int32,System.Int32)
+  fullName: Probability.RandomUtil.RandomRange(System.Int32, System.Int32)
+  nameWithType: RandomUtil.RandomRange(Int32, Int32)
+- uid: Probability.RandomUtil.RandomRange*
+  name: RandomRange
+  href: api/Probability.RandomUtil.html#Probability_RandomUtil_RandomRange_
+  commentId: Overload:Probability.RandomUtil.RandomRange
+  isSpec: "True"
+  fullName: Probability.RandomUtil.RandomRange
+  nameWithType: RandomUtil.RandomRange

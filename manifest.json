@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProbabilityTool.ProbabilityUtil.yml",
+      "source_relative_path": "api/Probability.GameObjectLootList.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProbabilityTool.ProbabilityUtil.html",
-          "hash": "AA2eYFTuCWoDFgLGK3AaysnT3ZyANhhKcBcyFI9eZm4="
+          "relative_path": "api/Probability.GameObjectLootList.html",
+          "hash": "wRBtHDPuX5bY68o8NiYOJTLV5K5eija4wCfBZLtkUEc="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProbabilityTool.yml",
+      "source_relative_path": "api/Probability.ProbabilityUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProbabilityTool.html",
-          "hash": "soujIOHFM+LhuMTCw8TWqMH/F2eWc9n8M4OE9WWhCJM="
+          "relative_path": "api/Probability.ProbabilityUtil.html",
+          "hash": "0gVMtB8MkaGR6gyiYiedxuU7K65ZEkCgC53BOP4va2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Probability.RandomUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Probability.RandomUtil.html",
+          "hash": "UOeGKoUVECk0kPD2NjmFmbmsz0+Abgdy4m9bfpUukV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Probability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Probability.html",
+          "hash": "m/Y4SUyy5YHGtNTmi9AVRBCuBmb9D//j9cgKTuc2WwU="
         }
       },
       "is_incremental": false,
@@ -54,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "f2Aa3jrwMMWjuPQGDgjcKsIJc+GlRFz4Vs1Accjoj1U="
+          "hash": "7VpMiqUccGrzkciyePI0qhVWg4RKmNb6NqPNySiUXKE="
         }
       },
       "is_incremental": false,
@@ -139,7 +163,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 4,
           "skipped_file_count": 1
         },
         "TocDocumentProcessor": {

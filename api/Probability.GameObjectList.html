@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct RandomUtil
+    <title>Class GameObjectList
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct RandomUtil
+    <meta name="title" content="Class GameObjectList
    ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -78,54 +78,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Probability.RandomUtil">
+            <article class="content wrap" id="_content" data-uid="Probability.GameObjectList">
   
   
-  <h1 id="Probability_RandomUtil" data-uid="Probability.RandomUtil" class="text-break">Struct RandomUtil
+  <h1 id="Probability_GameObjectList" data-uid="Probability.GameObjectList" class="text-break">Class GameObjectList
   </h1>
-  <div class="markdown level0 summary"><p>This utility generates a random integer. The random generator is performance optimized.</p>
+  <div class="markdown level0 summary"><p>The GameObjectList class compiles the various item lists.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GameObjectList</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.ToString()</span>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
       <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Probability.html">Probability</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="Probability_RandomUtil_syntax">Syntax</h5>
+  <h5 id="Probability_GameObjectList_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct RandomUtil</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class GameObjectList</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   
   
-  <h4 id="Probability_RandomUtil_randomNumber" data-uid="Probability.RandomUtil.randomNumber">randomNumber</h4>
-  <div class="markdown level1 summary"><p>Function to get a random item from all Game Object Lists.</p>
+  <a id="Probability_GameObjectList_GetGameObjectList_" data-uid="Probability.GameObjectList.GetGameObjectList*"></a>
+  <h4 id="Probability_GameObjectList_GetGameObjectList" data-uid="Probability.GameObjectList.GetGameObjectList">GetGameObjectList()</h4>
+  <div class="markdown level1 summary"><p>Returns the current list of GameObject.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Random randomNumber</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; GetGameObjectList()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -135,25 +145,104 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Unity.Mathematics.Random</span></td>
-        <td><p>Returns a random integer.</p>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td><p>Returns the current list of GameObject.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Probability_RandomUtil_RandomRange_" data-uid="Probability.RandomUtil.RandomRange*"></a>
-  <h4 id="Probability_RandomUtil_RandomRange_System_Int32_System_Int32_" data-uid="Probability.RandomUtil.RandomRange(System.Int32,System.Int32)">RandomRange(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Generates a random integer between two positive numbers.</p>
+  <a id="Probability_GameObjectList_GetGameObjectListProbability_" data-uid="Probability.GameObjectList.GetGameObjectListProbability*"></a>
+  <h4 id="Probability_GameObjectList_GetGameObjectListProbability" data-uid="Probability.GameObjectList.GetGameObjectListProbability">GetGameObjectListProbability()</h4>
+  <div class="markdown level1 summary"><p>Returns the probability of getting one of the objects from the list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[BurstCompile]
-public int RandomRange(int min, int max)</code></pre>
+    <pre><code class="lang-csharp hljs">public float GetGameObjectListProbability()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Returns the current list of GameObject.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Probability_GameObjectList_GetWeight_" data-uid="Probability.GameObjectList.GetWeight*"></a>
+  <h4 id="Probability_GameObjectList_GetWeight" data-uid="Probability.GameObjectList.GetWeight">GetWeight()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetWeight()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns the weight of the current list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Probability_GameObjectList_SetGameObjectList_" data-uid="Probability.GameObjectList.SetGameObjectList*"></a>
+  <h4 id="Probability_GameObjectList_SetGameObjectList_System_Collections_Generic_List_UnityEngine_GameObject__" data-uid="Probability.GameObjectList.SetGameObjectList(System.Collections.Generic.List{UnityEngine.GameObject})">SetGameObjectList(List&lt;GameObject&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets a list of GameObjects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGameObjectList(List&lt;GameObject&gt; gameObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td><span class="parametername">gameObjects</span></td>
+        <td><p>Unity GameObject</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Probability_GameObjectList_SetWeight_" data-uid="Probability.GameObjectList.SetWeight*"></a>
+  <h4 id="Probability_GameObjectList_SetWeight_System_Int32_" data-uid="Probability.GameObjectList.SetWeight(System.Int32)">SetWeight(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the weight of the list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWeight(int weight)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,30 +256,8 @@ public int RandomRange(int min, int max)</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">min</span></td>
-        <td><p>Minimum value of the random range.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">max</span></td>
-        <td><p>Maximum value of the random range.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>Returns a positive random integer.</p>
+        <td><span class="parametername">weight</span></td>
+        <td><p>Weight of the list</p>
 </td>
       </tr>
     </tbody>

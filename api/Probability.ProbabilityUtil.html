@@ -405,17 +405,17 @@ public class ProbabilityUtil : MonoBehaviour</code></pre>
   </h3>
   
   
-  <a id="Probability_ProbabilityUtil_GetLoot_" data-uid="Probability.ProbabilityUtil.GetLoot*"></a>
-  <h4 id="Probability_ProbabilityUtil_GetLoot" data-uid="Probability.ProbabilityUtil.GetLoot">GetLoot()</h4>
-  <div class="markdown level1 summary"><p>Function to get a random item from all Game Object Loot Lists.</p>
+  <a id="Probability_ProbabilityUtil_GetItem_" data-uid="Probability.ProbabilityUtil.GetItem*"></a>
+  <h4 id="Probability_ProbabilityUtil_GetItem" data-uid="Probability.ProbabilityUtil.GetItem">GetItem()</h4>
+  <div class="markdown level1 summary"><p>Function to get a random item from all Game Object Lists.</p>
 <div class="TIP"><h5>tip</h5><p>
-This function must be used to get the random loot for your projects. Example: Reward through achievements.
+This function must be used to get the random item for your projects. Example: Reward through achievements.
 </p></div>  
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject GetLoot()</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject GetItem()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -435,14 +435,14 @@ This function must be used to get the random loot for your projects. Example: Re
   </table>
   
   
-  <a id="Probability_ProbabilityUtil_GetLootListByIndex_" data-uid="Probability.ProbabilityUtil.GetLootListByIndex*"></a>
-  <h4 id="Probability_ProbabilityUtil_GetLootListByIndex_System_Int32_" data-uid="Probability.ProbabilityUtil.GetLootListByIndex(System.Int32)">GetLootListByIndex(Int32)</h4>
+  <a id="Probability_ProbabilityUtil_GetItemListByIndex_" data-uid="Probability.ProbabilityUtil.GetItemListByIndex*"></a>
+  <h4 id="Probability_ProbabilityUtil_GetItemListByIndex_System_Int32_" data-uid="Probability.ProbabilityUtil.GetItemListByIndex(System.Int32)">GetItemListByIndex(Int32)</h4>
   <div class="markdown level1 summary"><p>Returns a specific list based on the index.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; GetLootListByIndex(int element)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; GetItemListByIndex(int element)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -480,14 +480,59 @@ This function must be used to get the random loot for your projects. Example: Re
   </table>
   
   
-  <a id="Probability_ProbabilityUtil_RemoveLootList_" data-uid="Probability.ProbabilityUtil.RemoveLootList*"></a>
-  <h4 id="Probability_ProbabilityUtil_RemoveLootList_System_Int32_" data-uid="Probability.ProbabilityUtil.RemoveLootList(System.Int32)">RemoveLootList(Int32)</h4>
+  <a id="Probability_ProbabilityUtil_GetItemProbabilityOfListByIndex_" data-uid="Probability.ProbabilityUtil.GetItemProbabilityOfListByIndex*"></a>
+  <h4 id="Probability_ProbabilityUtil_GetItemProbabilityOfListByIndex_System_Int32_" data-uid="Probability.ProbabilityUtil.GetItemProbabilityOfListByIndex(System.Int32)">GetItemProbabilityOfListByIndex(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the probability of getting one of the objects from a specific list by index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetItemProbabilityOfListByIndex(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index of list.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Probability of list by index</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Probability_ProbabilityUtil_RemoveItemFromList_" data-uid="Probability.ProbabilityUtil.RemoveItemFromList*"></a>
+  <h4 id="Probability_ProbabilityUtil_RemoveItemFromList_System_Int32_" data-uid="Probability.ProbabilityUtil.RemoveItemFromList(System.Int32)">RemoveItemFromList(Int32)</h4>
   <div class="markdown level1 summary"><p>Removes the entire list from all lists.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveLootList(int element)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveItemFromList(int element)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -508,14 +553,14 @@ This function must be used to get the random loot for your projects. Example: Re
   </table>
   
   
-  <a id="Probability_ProbabilityUtil_SetLootListByIndex_" data-uid="Probability.ProbabilityUtil.SetLootListByIndex*"></a>
-  <h4 id="Probability_ProbabilityUtil_SetLootListByIndex_System_Collections_Generic_List_UnityEngine_GameObject__System_Int32_" data-uid="Probability.ProbabilityUtil.SetLootListByIndex(System.Collections.Generic.List{UnityEngine.GameObject},System.Int32)">SetLootListByIndex(List&lt;GameObject&gt;, Int32)</h4>
+  <a id="Probability_ProbabilityUtil_SetItemListByIndex_" data-uid="Probability.ProbabilityUtil.SetItemListByIndex*"></a>
+  <h4 id="Probability_ProbabilityUtil_SetItemListByIndex_System_Collections_Generic_List_UnityEngine_GameObject__System_Int32_" data-uid="Probability.ProbabilityUtil.SetItemListByIndex(System.Collections.Generic.List{UnityEngine.GameObject},System.Int32)">SetItemListByIndex(List&lt;GameObject&gt;, Int32)</h4>
   <div class="markdown level1 summary"><p>Overwrites a list with GameObject in a specific place of the lists.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetLootListByIndex(List&lt;GameObject&gt; gameObjects, int element)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetItemListByIndex(List&lt;GameObject&gt; gameObjects, int element)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

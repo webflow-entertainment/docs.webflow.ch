@@ -29,10 +29,10 @@
     "title": "Welcome to webflow!",
     "keywords": "Welcome to webflow! The company webflow is a small company from Switzerland. The company was founded in 2020 and develops content for games. The company relies on the cross-platform game engine Unity."
   },
-  "articles/probabilitutil.html": {
-    "href": "articles/probabilitutil.html",
-    "title": "ProbabilityUtil is a component for Unity.",
-    "keywords": "ProbabilityUtil is a component for Unity."
+  "articles/probabilityutil.html": {
+    "href": "articles/probabilityutil.html",
+    "title": "Titel",
+    "keywords": "Titel Hier wird das Tool beschrieben. Für was es genutzt werden kann und welche Funktionen es hat. Sowie ein Verweis auf die API-Dokumentation. [!WARNING] Prerequisites Burst Compile Version Asdf Asfd Asdf Import Package Hier wird beschrieben wie das Package importiert werden muss und was zu beachten ist. File Description Hier werden die einzelnen Dateien des Packages beschrieben und welche Funktion diese haben. How To In diesem Kapitel werden die einzelnen Schritte aufgezeigt wie das Package genutzt wird Import Create Empty GameObject Add Component Add Prefabs Next Steps Bilder {width=\"1.7395833333333333in\" height=\"2.101994750656168in\"}"
   },
   "index.html": {
     "href": "index.html",

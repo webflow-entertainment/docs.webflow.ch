@@ -97,15 +97,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/probabilityutil.md",
       "output": {
         ".html": {
           "relative_path": "articles/probabilityutil.html",
-          "hash": "2a2qkbnc1+YBDtx+ANZI63FWXn06Je5H/YDiTZnDwbU="
+          "hash": "5Epz1Uz3YHXk8UGjC/w/MbgMa9QQWgU6+PrhKd1TIAg="
         }
       },
       "is_incremental": false,
@@ -129,6 +126,28 @@
       "output": {
         "resource": {
           "relative_path": "images/image1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/image2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/image2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/image3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/image3.png"
         }
       },
       "is_incremental": false,

@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ProbabilityUtil </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ProbabilityUtil ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="probabilityutil">ProbabilityUtil</h1>
+
+<p>This package contains the ProbabilityUtil. The utility is a simple tool
+to get random game objects from one or more lists. A weighting can be
+added to the lists, which sets the probability. The higher the weighting
+compared to the other lists, the higher the probability of getting one
+of the objects from that list. The weighting must be set for each list,
+and the first list must have the highest weighting. Then the following
+list must have a lower weighting value.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><p>Unity Version 2020.3.17f1 or higher</p>
+</li>
+<li><p>Unity Burst 1.6.0 or higher</p>
+</li>
+</ul>
+<h2 id="file-description">File Description</h2>
+<p>Description of the files relevant for the function.</p>
+<ul>
+<li>ProbabilityUtil.cs</li>
+</ul>
+<p>Contains the main function of the tool and must be added as a component
+to a game object.</p>
+<ul>
+<li>GameObjectList.cs</li>
+</ul>
+<p>The GameObjectList class contains the list for the individual game
+objects.</p>
+<ul>
+<li>RandomUtil.cs</li>
+</ul>
+<p>A utility that returns a random number. The utility is optimized for
+performance.</p>
+<h2 id="how-to">How To</h2>
+<ol>
+<li>Create a new unity project named ProbabilityDemo.</li>
+</ol>
+<p><img src="https://github.com/webflow-entertainment/docs.webflow.ch/blob/main/images/image1.png" alt="">{width=&quot;6.3in&quot; height=&quot;3.1847222222222222in&quot;}</p>
+<ol start="2">
+<li>Import the Burst package from the package manger of unity. Choose
+the unity registry. After the import of the package restart Unity.</li>
+</ol>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.burst@1.6/manual/index.html">https://docs.unity3d.com/Packages/com.unity.burst@1.6/manual/index.html</a></p>
+<ol start="3">
+<li>Import the ProbabiltyUtil package from the unity asset store.</li>
+</ol>
+<blockquote>
+<p><img src="https://github.com/webflow-entertainment/docs.webflow.ch/blob/main/images/image2.png" alt="Ein Bild, das Text enthält. Automatisch generierte
+Beschreibung">{width=&quot;3.8859590988626422in&quot;
+height=&quot;4.5006277340332455in&quot;}</p>
+</blockquote>
+<ol start="4">
+<li>Open the demo scene and select the ProbabilityUtil game object.</li>
+</ol>
+<p><img src="https://github.com/webflow-entertainment/docs.webflow.ch/blob/main/images/image3.png" alt="">{width=&quot;3.34421697287839in&quot;
+height=&quot;5.95916447944007in&quot;}</p>
+<ol start="5">
+<li>The demo scene generates 5 game objects and uses the ProbabilityUtil
+to select the objects. Add your own prefabs to test and add more
+lists. Customize the demo scene as desired. Activate the debug log
+to get more information in the Unity console.Next Steps</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

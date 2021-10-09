@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/probabilityutil.html",
-          "hash": "FzehhpM/pfwb2zkW33fYdneMJHG/Et2D8v91K8cGGNM="
+          "hash": "Ep5G7UN5IySrz8HH7NCOAnn7950v58PJsN6U+YLPbV0="
         }
       },
       "is_incremental": false,
@@ -122,10 +122,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/image1.png",
+      "source_relative_path": "images/ProbabilityUtil_Doc_Image01.png",
       "output": {
         "resource": {
-          "relative_path": "images/image1.png"
+          "relative_path": "images/ProbabilityUtil_Doc_Image01.png"
         }
       },
       "is_incremental": false,
@@ -133,10 +133,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/image2.png",
+      "source_relative_path": "images/ProbabilityUtil_Doc_Image02.png",
       "output": {
         "resource": {
-          "relative_path": "images/image2.png"
+          "relative_path": "images/ProbabilityUtil_Doc_Image02.png"
         }
       },
       "is_incremental": false,
@@ -144,10 +144,21 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/image3.png",
+      "source_relative_path": "images/ProbabilityUtil_Doc_Image03.png",
       "output": {
         "resource": {
-          "relative_path": "images/image3.png"
+          "relative_path": "images/ProbabilityUtil_Doc_Image03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ProbabilityUtil_Doc_Image04.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ProbabilityUtil_Doc_Image04.png"
         }
       },
       "is_incremental": false,

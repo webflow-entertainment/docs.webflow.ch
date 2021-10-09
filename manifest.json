@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/probabilityutil.html",
-          "hash": "xTqfOa7128MN3o1LaLurBggl5DgUYc/aidXOnjBfE74="
+          "hash": "FzehhpM/pfwb2zkW33fYdneMJHG/Et2D8v91K8cGGNM="
         }
       },
       "is_incremental": false,
@@ -122,10 +122,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/media/image1.png",
+      "source_relative_path": "images/image1.png",
       "output": {
         "resource": {
-          "relative_path": "images/media/image1.png"
+          "relative_path": "images/image1.png"
         }
       },
       "is_incremental": false,
@@ -133,10 +133,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/media/image2.png",
+      "source_relative_path": "images/image2.png",
       "output": {
         "resource": {
-          "relative_path": "images/media/image2.png"
+          "relative_path": "images/image2.png"
         }
       },
       "is_incremental": false,
@@ -144,10 +144,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/media/image3.png",
+      "source_relative_path": "images/image3.png",
       "output": {
         "resource": {
-          "relative_path": "images/media/image3.png"
+          "relative_path": "images/image3.png"
         }
       },
       "is_incremental": false,

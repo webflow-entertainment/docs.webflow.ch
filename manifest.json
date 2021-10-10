@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/probabilityutil.html",
-          "hash": "eqDF6HuQqORgzqiiVvCT+Pi9K7A3RCx0sBsr3R04RrE="
+          "hash": "ACkE9PrIXalQ818b56tZ1fFGgZtinUR14M1gzv3p8h4="
         }
       },
       "is_incremental": false,
@@ -192,23 +192,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 4
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
